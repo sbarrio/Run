@@ -100,11 +100,11 @@ end
 
 function love.draw()
 	--draws floor
-	love.graphics.setColor(0,199,84)
+	love.graphics.setColor(64,199,84)
 	love.graphics.rectangle('fill', 0, 420, 640, 60)
 
 	--draws sun
-	love.graphics.setColor(0,255,51)
+	love.graphics.setColor(255,255,51)
 	love.graphics.circle("fill", 550, 70, 40, 100)
 
 	--draws player
